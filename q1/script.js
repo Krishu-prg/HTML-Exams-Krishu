@@ -9,11 +9,11 @@ fetch('https://jsonplaceholder.typicode.com/comments')
             data.forEach(comment => {
                 const li = document.createElement('li');
                 li.innerHTML = `
-                    Post ID: ${comment.postId} <br>
+                    
                     ID: ${comment.id} <br>
                     Name: ${comment.name} <br>
                     Email: ${comment.email} <br>
-                    Body: ${comment.body}
+                   
                 `;
                 commentsList.appendChild(li);
             });

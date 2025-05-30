@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcefe8; 
+    text-align: center;
+    padding-top: 100px;
+  }
+  .container {
+    background-color: #ffe4ec; 
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #c4f0c5; 
+    border: none;
+    border-radius: 5px;
+  }
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #555; 
+  }
+  
